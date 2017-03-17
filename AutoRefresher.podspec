@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
     s.name         = "AutoRefresher"
-    s.version      = "0.1.5"
+    s.version      = "0.1.6"
     s.summary      = "A lib to auto refresh data and notify the page to update data."
 
     s.homepage     = "https://github.com/kdjfqk/AutoRefresher"

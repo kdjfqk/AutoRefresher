@@ -221,6 +221,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = T9A73DY5KV;
 						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -504,6 +505,7 @@
 			baseConfigurationReference = 2E0E7F96A1DAA8CE0B6A2738 /* Pods-AutoRefresher_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T9A73DY5KV;
 				INFOPLIST_FILE = AutoRefresher/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -518,6 +520,7 @@
 			baseConfigurationReference = 31C377134146243651662F15 /* Pods-AutoRefresher_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T9A73DY5KV;
 				INFOPLIST_FILE = AutoRefresher/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
