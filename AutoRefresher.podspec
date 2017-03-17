@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
     s.name         = "AutoRefresher"
-    s.version      = "0.1.2"
+    s.version      = "0.1.3"
     s.summary      = "A lib to auto refresh data and notify the page to update data."
 
     s.homepage     = "https://github.com/kdjfqk/AutoRefresher"
@@ -16,6 +16,8 @@ Pod::Spec.new do |s|
     s.pod_target_xcconfig = {
         'SWIFT_VERSION' => '3.0',
     }
+
+    s.platform = :ios
 
     s.dependency 'Aspects'
 end
