@@ -1,0 +1,71 @@
+//
+//  LYAutoCommitOfflineFBController.m
+//  LYFaultDiagnosis
+//
+//  Created by wl on 15/10/25.
+//  Copyright © 2015年 YNKJMACMINI2. All rights reserved.
+//
+
+#import "LYNetReachabilityNotifier.h"
+#import "Reachability.h"
+#import "LYNetworkingMacro.h"
+#import "LYMacro.h"
+#import "ReachabilityUtil.h"
+
+@interface LYNetReachabilityNotifier()
+@property (strong,nonatomic)Reachability *reach;
+@property (assign,nonatomic)BOOL currentNetReachable;
+@end
+
+@implementation LYNetReachabilityNotifier
+
++(instancetype)shareInstance
+{
+    static LYNetReachabilityNotifier *instance;
+    static dispatch_once_t once;
+    dispatch_once(&once, ^{
+        instance = [[self alloc] init];
+    });
+    return instance;
+}
+
+-(instancetype)init
+{
+    self = [super init];
+    if(self)
+    {
+        self.reach = [Reachability reachabilityWithHostName:k_Url_NetReachability];
+        self.currentNetReachable = [ReachabilityUtil networkIsReachable];
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reachabilityChanged:) name:kReachabilityChangedNotification object:nil];
+    }
+    return self;
+}
+
+-(void)start
+{
+    [self.reach startNotifier];
+}
+-(void)stop
+{
+    [self.reach stopNotifier];
+}
+
+- (void) reachabilityChanged:(NSNotification *)note
+{
+    NSLog(@"%ld",(long)self.reach.currentReachabilityStatus);
+    BOOL reachable = [ReachabilityUtil networkIsReachable];
+    if (!reachable == self.currentNetReachable) {
+        if (reachable) {
+            NSLog(@"网络已连接");
+            [[NSNotificationCenter defaultCenter] postNotificationName:kNetReachabilityChangedNotification object:nil userInfo:@{kNetReachabilityChangedNotificationUserInfoReachableKey:[NSNumber numberWithBool:YES]}];
+        }
+        else
+        {
+            NSLog(@"网络已断开");
+            [[NSNotificationCenter defaultCenter] postNotificationName:kNetReachabilityChangedNotification object:nil userInfo:@{kNetReachabilityChangedNotificationUserInfoReachableKey:[NSNumber numberWithBool:NO]}];
+        }
+        self.currentNetReachable = reachable;
+    }
+}
+
+@end

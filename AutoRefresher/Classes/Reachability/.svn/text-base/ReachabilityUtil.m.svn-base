@@ -1,0 +1,45 @@
+//
+//  ReachabilityUtil.m
+//  LYFaultDiagnosis
+//
+//  Created by YNKJMACMINI2 on 15/10/9.
+//  Copyright © 2015年 YNKJMACMINI2. All rights reserved.
+//
+
+#import "ReachabilityUtil.h"
+#import "Reachability.h"
+#import "LYNetworkingMacro.h"
+
+@implementation ReachabilityUtil
+
++(BOOL)networkIsReachable{
+    Reachability *r = [Reachability reachabilityWithHostName:k_Url_NetReachability];
+    if ([r currentReachabilityStatus] == NotReachable) {
+        return NO;
+    }else{
+        return YES;
+    }
+}
+
+
++(BOOL)WIFIor3G{
+    Reachability * r=[Reachability reachabilityWithHostName:k_Url_NetReachability];
+    switch ([r currentReachabilityStatus]) {
+        case NotReachable:
+            //unnet
+            return NO;
+            break;
+        case ReachableViaWWAN:
+            //3g
+            return NO;
+            break;
+        case ReachableViaWiFi:
+            return YES;
+            break;
+        default:
+            break;
+    }
+}
+
+
+@end

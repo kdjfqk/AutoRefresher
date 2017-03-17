@@ -1,5 +1,7 @@
 PODS:
-  - AutoRefresher (0.1.0)
+  - Aspects (1.4.1)
+  - AutoRefresher (0.1.2):
+    - Aspects
 
 DEPENDENCIES:
   - AutoRefresher (from `../`)
@@ -9,7 +11,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  AutoRefresher: e2edb27c86e6756d2da59ce5e84d7775eeb0ba80
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  AutoRefresher: f2084250d59b0e2b6066270a50aa8a79c3081f41
 
 PODFILE CHECKSUM: ed10746969235447ea0f4de4de7d3d65a0933154
 
