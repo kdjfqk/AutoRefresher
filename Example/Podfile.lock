@@ -1,6 +1,6 @@
 PODS:
   - Aspects (1.4.1)
-  - AutoRefresher (0.1.4):
+  - AutoRefresher (0.1.6):
     - Aspects
 
 DEPENDENCIES:
@@ -12,8 +12,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
-  AutoRefresher: 232c33bf9b9e3379828f301bcb690560ca59c194
+  AutoRefresher: 19803f8b432175ae3c18b298ae6d8f0141316f21
 
 PODFILE CHECKSUM: ed10746969235447ea0f4de4de7d3d65a0933154
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.2.0
