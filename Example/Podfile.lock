@@ -1,6 +1,6 @@
 PODS:
   - Aspects (1.4.1)
-  - AutoRefresher (0.1.3):
+  - AutoRefresher (0.1.4):
     - Aspects
 
 DEPENDENCIES:
@@ -12,7 +12,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
-  AutoRefresher: 5eb74b56197ce93a8d481e2871e8a5b726196b5a
+  AutoRefresher: 232c33bf9b9e3379828f301bcb690560ca59c194
 
 PODFILE CHECKSUM: ed10746969235447ea0f4de4de7d3d65a0933154
 

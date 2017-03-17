@@ -1,6 +1,6 @@
 {
   "name": "AutoRefresher",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "summary": "A lib to auto refresh data and notify the page to update data.",
   "homepage": "https://github.com/kdjfqk/AutoRefresher",
   "license": "MIT",
@@ -9,14 +9,14 @@
   },
   "source": {
     "git": "https://github.com/kdjfqk/AutoRefresher.git",
-    "tag": "0.1.3"
+    "tag": "0.1.4"
   },
   "source_files": "AutoRefresher/Classes/**/*",
   "pod_target_xcconfig": {
     "SWIFT_VERSION": "3.0"
   },
   "platforms": {
-    "ios": null
+    "ios": "8.3"
   },
   "dependencies": {
     "Aspects": [

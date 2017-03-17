@@ -8,32 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		008C49CD8655AF945C7208917C0E85BD /* AutoRefresher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CC4017B393C691A52B6DCE653E523A0 /* AutoRefresher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		028F08B9EE1E71FD3C69BFFFBFE34D92 /* ReachabilityUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFADC4AF1E5BE55F427D2EBDD736229 /* ReachabilityUtil.m */; };
 		032B00E6EB135E78B13139C6EE445958 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5159EA4882497D67B6483D35EB9BDF8 /* Foundation.framework */; };
+		13F78D38CD6D8A144DF1A23563C23F6B /* AutoRefresher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4310EF7BA73F42C1E3EAB295E8F430 /* AutoRefresher-dummy.m */; };
+		1FC718058B95DD1AA5F00D0A3678C813 /* UTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E807FD6A1CF4847B6BF4ECD2E8D808 /* UTimer.m */; };
 		2703BE00703C49B383971DCE5C304C26 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 77AFCC23C1BD16F63662B9C9792D8D31 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31C2F86474A2CAA9434DCCE821E8BA32 /* ARefresher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D37C0E234951D5D08D85BEB606D315E /* ARefresher.swift */; };
 		3EC42697CEFBEAEDD94E21C0FB17D4B6 /* Pods-AutoRefresher_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE28A7E3E85608789C08FE3549F9481 /* Pods-AutoRefresher_Example-dummy.m */; };
+		4409246B064BB59B1B6BA09C1949F8EF /* RBNotifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED184B353FEA51210490779F305B88F /* RBNotifier.swift */; };
+		4473797ABDE0ADAFE72281B5D3362827 /* ARManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6804BF852C9F7D3483043200924D9E /* ARManager.swift */; };
+		47A0F0B91F2CD7C9F7C299B545785E98 /* ARConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D0FE923863A5FC5E097D2ADBC65485 /* ARConfigManager.swift */; };
 		4927D980EB038B019BE534AA57A3A55A /* Aspects.h in Headers */ = {isa = PBXBuildFile; fileRef = D80453B2EF0E41E0957FE769D386DAAD /* Aspects.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		547836AF658CD5409D9368AFFB686600 /* RBNotifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED184B353FEA51210490779F305B88F /* RBNotifier.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		5A8B9EE3A9E1E1F7D218680E4274F210 /* ARConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D0FE923863A5FC5E097D2ADBC65485 /* ARConfigManager.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		5ECB3E778E49C971A3BECAD28E679AC4 /* ARManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6804BF852C9F7D3483043200924D9E /* ARManager.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		64709A0C1CD0102D119B1AE484F69177 /* Aspects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B7DD3315BF2B3C6A49CF99C638AA96 /* Aspects.framework */; };
 		668401C9F0FD23CA9D41589DEB69CB56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5159EA4882497D67B6483D35EB9BDF8 /* Foundation.framework */; };
-		67C23409F4D38D541E54347E6CFF3F32 /* UTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E807FD6A1CF4847B6BF4ECD2E8D808 /* UTimer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		6AA0A51ECB55DBAD14E634B821165CF3 /* AutoRefresher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4310EF7BA73F42C1E3EAB295E8F430 /* AutoRefresher-dummy.m */; };
-		78924EC734C878E987201FC2201C32AB /* String+Reflection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBE6AFDDFB0BC775BAE0C77D6EBB1F0 /* String+Reflection.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		80C9CEA3E0F23806889927754282BA73 /* String+Reflection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBE6AFDDFB0BC775BAE0C77D6EBB1F0 /* String+Reflection.swift */; };
 		839AC19FD3A0ACD7FCEBF5BA75716551 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5CB00BF6A65E5261E4B4E6EE36DD98 /* Aspects.m */; };
 		854ABC80123177D83EE2DF1A65B6ED72 /* ReachabilityUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = C46AD5EF72C196305729AB8FFD16EA80 /* ReachabilityUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8EECA1A6B302DA57385F596592C4BDB9 /* ARefresher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D37C0E234951D5D08D85BEB606D315E /* ARefresher.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8A1FC7933F832EE1647B15B85920608C /* ARPlistLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCEDC6DAE1A84631150DB406FA060F5 /* ARPlistLoader.swift */; };
 		94A16D561DB3C8845CA9436E56082EFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5159EA4882497D67B6483D35EB9BDF8 /* Foundation.framework */; };
 		99355B3A4208CEEA655B60AB7D675FC5 /* Aspects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E60A81337DB5390B780FE7FAD7A833F /* Aspects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A6D3019862E1E468E6A80DFEA51E3571 /* Pods-AutoRefresher_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF88BA18272E08C11E522CBAAE049C7 /* Pods-AutoRefresher_Tests-dummy.m */; };
 		BC02C113DBDA4A016DAA069EC8BFCA57 /* Pods-AutoRefresher_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD536B4658E2BECF40369696D63BC14F /* Pods-AutoRefresher_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BDCC6741B1BD06AD80994C6AA0AFDDDF /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = BE767A1A12CE28599C8C30AC479509BB /* Reachability.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		BE6109BDCCF6B90687C08F73D732B51B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5159EA4882497D67B6483D35EB9BDF8 /* Foundation.framework */; };
 		BFEBC6EFDEA6FAB274CEA8F8963235B6 /* Aspects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3009879A71025C8B91799FF3173C8849 /* Aspects-dummy.m */; };
+		C700D1B218F6532A8B15A033C3BB6B0A /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = BE767A1A12CE28599C8C30AC479509BB /* Reachability.m */; };
 		C7BE1357580A8950A445973C8B3E616F /* UTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 94D1EFB5ACE9A1D736B717018FB0F339 /* UTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE942D9E4F159C47C0E3601666E63DC4 /* Pods-AutoRefresher_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 019FF767AD4B236F43EE22CD1B0ABB2C /* Pods-AutoRefresher_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E7F92A547B7ABF707145F368F8009E2C /* ARPlistLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCEDC6DAE1A84631150DB406FA060F5 /* ARPlistLoader.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		EB6F2D8D3BFF14427E3C109FDB7F9535 /* ReachabilityUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFADC4AF1E5BE55F427D2EBDD736229 /* ReachabilityUtil.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -418,7 +418,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B946488ACCFA3E80DF6AB9869C64111 /* Build configuration list for PBXNativeTarget "AutoRefresher" */;
 			buildPhases = (
-				EE1899D8425DC6DE67654AF0CD2958BF /* Sources */,
+				B879CEC370F9DF3D5DF6BDB0047E6E9A /* Sources */,
 				BF0C79F44DF96833B422F69CF0F8DAE4 /* Frameworks */,
 				F57CDA6167FA98F495342C251868AF3D /* Headers */,
 			);
@@ -521,20 +521,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE1899D8425DC6DE67654AF0CD2958BF /* Sources */ = {
+		B879CEC370F9DF3D5DF6BDB0047E6E9A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A8B9EE3A9E1E1F7D218680E4274F210 /* ARConfigManager.swift in Sources */,
-				8EECA1A6B302DA57385F596592C4BDB9 /* ARefresher.swift in Sources */,
-				5ECB3E778E49C971A3BECAD28E679AC4 /* ARManager.swift in Sources */,
-				E7F92A547B7ABF707145F368F8009E2C /* ARPlistLoader.swift in Sources */,
-				6AA0A51ECB55DBAD14E634B821165CF3 /* AutoRefresher-dummy.m in Sources */,
-				547836AF658CD5409D9368AFFB686600 /* RBNotifier.swift in Sources */,
-				BDCC6741B1BD06AD80994C6AA0AFDDDF /* Reachability.m in Sources */,
-				EB6F2D8D3BFF14427E3C109FDB7F9535 /* ReachabilityUtil.m in Sources */,
-				78924EC734C878E987201FC2201C32AB /* String+Reflection.swift in Sources */,
-				67C23409F4D38D541E54347E6CFF3F32 /* UTimer.m in Sources */,
+				47A0F0B91F2CD7C9F7C299B545785E98 /* ARConfigManager.swift in Sources */,
+				31C2F86474A2CAA9434DCCE821E8BA32 /* ARefresher.swift in Sources */,
+				4473797ABDE0ADAFE72281B5D3362827 /* ARManager.swift in Sources */,
+				8A1FC7933F832EE1647B15B85920608C /* ARPlistLoader.swift in Sources */,
+				13F78D38CD6D8A144DF1A23563C23F6B /* AutoRefresher-dummy.m in Sources */,
+				4409246B064BB59B1B6BA09C1949F8EF /* RBNotifier.swift in Sources */,
+				C700D1B218F6532A8B15A033C3BB6B0A /* Reachability.m in Sources */,
+				028F08B9EE1E71FD3C69BFFFBFE34D92 /* ReachabilityUtil.m in Sources */,
+				80C9CEA3E0F23806889927754282BA73 /* String+Reflection.swift in Sources */,
+				1FC718058B95DD1AA5F00D0A3678C813 /* UTimer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -729,6 +729,35 @@
 			};
 			name = Debug;
 		};
+		50F09C364C3311D4AEA8F533270A3C69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7D29D22D057C28A52544C2055A173F1 /* AutoRefresher.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AutoRefresher/AutoRefresher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AutoRefresher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AutoRefresher/AutoRefresher.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AutoRefresher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		6B48D2F3BF16C01153017E802E20737E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DEB1E8388CABA7088704625E2F3E000E /* Aspects.xcconfig */;
@@ -752,65 +781,6 @@
 				PRODUCT_NAME = Aspects;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7A883876D7930E1E755805E9B11C6A68 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7D29D22D057C28A52544C2055A173F1 /* AutoRefresher.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AutoRefresher/AutoRefresher-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AutoRefresher/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AutoRefresher/AutoRefresher.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = AutoRefresher;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B8F593136EC7CBE57BB287390744DB7A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7D29D22D057C28A52544C2055A173F1 /* AutoRefresher.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AutoRefresher/AutoRefresher-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AutoRefresher/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AutoRefresher/AutoRefresher.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = AutoRefresher;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -892,6 +862,36 @@
 			};
 			name = Release;
 		};
+		F1648B254EF7962BDD60C181083B631F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7D29D22D057C28A52544C2055A173F1 /* AutoRefresher.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AutoRefresher/AutoRefresher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AutoRefresher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AutoRefresher/AutoRefresher.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AutoRefresher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -916,8 +916,8 @@
 		8B946488ACCFA3E80DF6AB9869C64111 /* Build configuration list for PBXNativeTarget "AutoRefresher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8F593136EC7CBE57BB287390744DB7A /* Debug */,
-				7A883876D7930E1E755805E9B11C6A68 /* Release */,
+				F1648B254EF7962BDD60C181083B631F /* Debug */,
+				50F09C364C3311D4AEA8F533270A3C69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
