@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
     s.name         = "AutoRefresher"
-    s.version      = "0.1.3"
+    s.version      = "0.1.5"
     s.summary      = "A lib to auto refresh data and notify the page to update data."
 
     s.homepage     = "https://github.com/kdjfqk/AutoRefresher"
@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
     }
 
     s.platform = :ios
+    s.ios.deployment_target = '8.3'
 
     s.dependency 'Aspects'
 end
