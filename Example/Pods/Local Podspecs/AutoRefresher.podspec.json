@@ -1,0 +1,22 @@
+{
+  "name": "AutoRefresher",
+  "version": "0.1.0",
+  "summary": "A short description of AutoRefresher.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/kdjfqk/AutoRefresher",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kdjfqk": "wangl@bjyn.com"
+  },
+  "source": {
+    "git": "https://github.com/kdjfqk/AutoRefresher.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AutoRefresher/Classes/**/*"
+}
