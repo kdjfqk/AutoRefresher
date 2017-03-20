@@ -32,7 +32,7 @@ AutoRefresher根据设定的时间间隔定时自动刷新指定的数据，并�
      */
     func updateData(_ data:AnyObject,fromDC:AnyClass) -> Void
 ```
-* 创建配置文件中的数据中心类，数据中心类必须实现ARDCProtocol协议
+* 创建配置文件中的数据中心类实现ARDCProtocol协议
 ```swift
 /**
      加载数据
@@ -41,7 +41,7 @@ AutoRefresher根据设定的时间间隔定时自动刷新指定的数据，并�
      */
     func loadData(_ params:[String:AnyObject], complete:((Bool,String?),AnyObject)->Void)
 ```
-* 在AppDelegate中通过ARefresher设置 刷新时间间隔、服务器主机名、配置文件路径，以及启动自动刷新等操作
+* 在AppDelegate中通过ARefresher设置`刷新时间间隔`、`服务器主机名`、`配置文件路径`，并启动自动刷新
 ```swift
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
          ARefresher.sharedInstance.setPlistPath(Bundle.main.path(forResource: "AutoRefreshConfig", ofType: "plist")!).setRefreshTime(5.0).setSeverHost("baidu.com").start()
