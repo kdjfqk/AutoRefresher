@@ -1,7 +1,7 @@
 # AutoRefresher
-==========
 
-##简介
+
+## 简介
 AutoRefresher根据设定的时间间隔定时自动刷新指定的数据，并通知指定的页面更新数据；刷新哪些数据以及哪些页面需要更新数据等配置通过plist文件统一管理 
 
 只需使用**ARefresher**类完成所有操作：
@@ -11,7 +11,7 @@ AutoRefresher根据设定的时间间隔定时自动刷新指定的数据，并�
 *  开启自动刷新：`start`
 *  停止自动刷新：`stop`
 
-##使用
+## 使用
 * 将AutoRefresher文件夹拷贝到工程
 * 创建plist配置文件，格式如下
 ![Alt text](Resource/1.png)
