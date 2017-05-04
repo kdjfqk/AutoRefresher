@@ -1,6 +1,0 @@
-framework module AutoRefresher {
-  umbrella header "AutoRefresher-umbrella.h"
-
-  export *
-  module * { export * }
-}

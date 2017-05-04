@@ -1,0 +1,11 @@
+
+
+use_frameworks!
+
+def pods
+pod 'Aspects', '~> 1.4.1'
+end
+
+target 'AutoRefresher' do
+    pods
+end

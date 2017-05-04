@@ -1,0 +1,26 @@
+//
+//  String+Reflection.swift
+//  YNCCProduct
+//
+//  Created by ldy on 16/9/7.
+//  Copyright © 2016年 YNKJMACMINI2. All rights reserved.
+//
+
+import Foundation
+
+extension String {
+    
+    func toClass() -> AnyClass? {
+        let appName: String = NSBundle.mainBundle().objectForInfoDictionaryKey("CFBundleName") as! String
+        let className = "\(appName).\(self)"
+        return NSClassFromString(className)
+    }
+    
+    func toObject() -> AnyObject?{
+        let classType = self.toClass() as? NSObject.Type
+        if let type = classType {
+            return type.init()
+        }
+        return nil
+    }
+}
